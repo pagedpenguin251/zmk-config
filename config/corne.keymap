@@ -125,7 +125,4 @@
             <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
             <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
-    &led_strip {
-        chain-length = <21>;
-    };
 };
