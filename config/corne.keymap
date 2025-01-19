@@ -22,6 +22,9 @@
             bindings = <&kp LEFT_ALT>;
             key-positions = <40 41>;
         };
+        Both {
+            bindings = <&to 4>;
+            key-positions = <1 2 13 14>;
     };
 
     behaviors {
