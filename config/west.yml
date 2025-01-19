@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: pagedpenguin251
-      revision: main
+      revision: plover-hid
       import: app/west.yml
   self:
     path: config
