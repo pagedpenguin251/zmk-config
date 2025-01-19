@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: ph
-      url-base: https://github.com/phuertay
+    - name: pagedpenguin251
+      url-base: https://github.com/pagedpenguin251
   projects:
     - name: zmk
-      remote: ph
-      revision: main
+      remote: pagedpenguin251
+      revision: plover
       import: app/west.yml
   self:
     path: config
