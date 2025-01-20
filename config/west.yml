@@ -9,8 +9,12 @@ manifest:
       remote: pagedpenguin251
       revision: plover
       import: app/west.yml
-   - name: zmk-nice-oled
-     remote: mctechnology17
-     revision: main
+    # include corne with dongle pro_micro and xiao compatible
+    - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
+      # - name: zmk-nice-oled
+      # remote: mctechnology17
+      # revision: main
   self:
     path: config
