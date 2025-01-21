@@ -121,7 +121,7 @@
         };
 
         PLV {
-            display-name = "PLV;
+            display-name = "PLV";
 
             bindings = <
 &kp ESC  &kp PLV_SL  &kp PLV_TL  &kp PLV_PL  &kp PLV_HL  &kp PLV_ST    &kp PLV_ST  &kp PLV_FR  &kp PLV_PR  &kp PLV_LR  &kp PLV_TR  &kp PLV_DR
