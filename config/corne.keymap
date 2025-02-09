@@ -16,11 +16,13 @@
         Both {
             bindings = <&fix 0 3>;
             key-positions = <37 40>;
+            layers = <0 2 3>;
         };
 
         Alt {
             bindings = <&kp LEFT_ALT>;
             key-positions = <40 41>;
+            layers = <0 2 3>;
         };
     };
 
@@ -78,6 +80,7 @@
 
         NUM {
             display-name = "NUM";
+
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -102,16 +105,15 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESC    &kp EXCL  &kp AT      &kp HASH   &kp DLLR    &kp PRCNT       &kp CARET  &kp AMPS  &kp UP            &kp LPAR           &kp RPAR      &kp BSPC
-&kp LSHFT   &trans    &trans      &trans     &kp C_MUTE  &kp C_VOL_UP    &kp MINUS  &kp LEFT  &kp DOWN          &kp RIGHT          &kp ASTERISK  &kp GRAVE
-&kp LCTRL   &trans    &kp C_PREV  &kp C_PP   &kp C_NEXT  &kp C_VOL_DN    &kp EQUAL  &kp PLUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH     &kp BSLH
-                                 &kp TAB    &Lower 1 0  &kp SPACE       &kp RET    &to 0     &kp LEFT_GUI
+&kp ESC    &kp EXCL  &kp AT      &kp HASH  &kp DLLR    &kp PRCNT       &kp CARET  &kp AMPS  &kp UP            &kp LPAR           &kp RPAR      &kp BSPC
+&kp LSHFT  &trans    &trans      &trans    &kp C_MUTE  &kp C_VOL_UP    &kp MINUS  &kp LEFT  &kp DOWN          &kp RIGHT          &kp ASTERISK  &kp GRAVE
+&kp LCTRL  &trans    &kp C_PREV  &kp C_PP  &kp C_NEXT  &kp C_VOL_DN    &kp EQUAL  &kp PLUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH     &kp BSLH
+                                 &kp TAB   &Lower 1 0  &kp SPACE       &kp RET    &to 0     &kp LEFT_GUI
             >;
         };
 
         FN {
             display-name = "FN";
-
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans
@@ -122,7 +124,6 @@
 
         PLV {
             display-name = "PLV";
-
             bindings = <
 &kp ESC  &kp PLV_SL  &kp PLV_TL  &kp PLV_PL  &kp PLV_HL  &kp PLV_ST    &kp PLV_ST  &kp PLV_FR  &kp PLV_PR  &kp PLV_LR  &kp PLV_TR  &kp PLV_DR
 &kp TAB  &kp PLV_SL  &kp PLV_KL  &kp PLV_WL  &kp PLV_RL  &kp PLV_ST    &kp PLV_ST  &kp PLV_RR  &kp PLV_BR  &kp PLV_GR  &kp PLV_SR  &kp PLV_ZR
